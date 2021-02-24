@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+	grid-template-columns: 475px 330px 500px;
+    grid-template-rows: 250px 150px 250px; 
+    grid-gap: 15px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+/*Define styles for grid items here*/
+.item1{
+	grid-column: 2 / 1;
+	grid-row: 2 / 1;
+	background-image: url(Imgs/01.jpg);
+	
+}
+
+.item2 {
+	grid-column: 3 / 2;
+	grid-row: 2 / 1;
+	background-image: url(Imgs/02.jpg);
+}
+
+.item3 {
+	grid-column: 4 / 3;
+	grid-row: 2 / 1;
+	background-image: url(Imgs/03.jpeg);
+}
+
+.item4{
+	grid-column: 2 / 1;
+	grid-row: 3 / 2;
+	background-image: url(Imgs/04.jpg);
+}
+
+.item5 {
+	grid-column: 3 / 2;
+	grid-row: 3 / 2;
+	background-image: url(Imgs/05.jpeg);
+}
+
+.item6{
+	grid-column: 4 / 3;
+	grid-row: 3 / 2;
+	background-image: url(Imgs/06.jpeg);
+}
+
+.item7{
+	grid-column: 2 / 1;
+	grid-row: 4 / 3;
+	background-image: url(Imgs/07.jpg);
+}
+
+.item8{
+	grid-column: 3 / 2;
+	grid-row: 4 / 3;
+	background-image: url(Imgs/08.PNG);
+}
+
+.item9{
+	grid-column: 4 / 3;
+	grid-row: 4 / 3;
+	background-image: url(Imgs/09.JPG);
+}
